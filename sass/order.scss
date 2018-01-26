@@ -1,0 +1,289 @@
+.shopping-content-title{
+    span{
+        display: inline-block;
+        width: 150px;
+        height: 42px;
+        background-image: url(../img/sprite.cart.png);
+        background-position: 0 -159px;
+        background-size: 460px 217px;
+    }
+}
+.shopping-content .shopping-content-title ul .focus-step{
+    color:#444;
+    &:after{
+        background-position: 0 -205px;
+    }
+}
+
+.order1{
+    width: 990px;
+    margin: 50px auto 20px;
+    min-height: 800px;
+    .order-address{
+        font-size: 14px;
+        color: #444;
+        border: 1px solid #e8e8e8;
+        margin-bottom: 40px;
+        
+        span{
+            cursor: pointer;
+            color: #d70024;
+            font-size: 14px;
+            float: right;
+        }
+    }
+    .addr-list{
+        padding-left: 20px;
+        max-height: 222px;
+        overflow: hidden;
+        margin-bottom: 20px;
+       
+        .new-addr{
+            width: 203px;
+            height: 172px;
+            float: left;
+            padding: 8px 14px 8px 8px;
+            margin-right: 13px;
+            margin-top: 30px;
+            border: 1px solid #e8e8e8;
+            position: relative;
+            cursor: pointer;
+            .plus-icon{
+                width: 60px;
+                padding-top: 70px;
+                margin-left: 72px;
+                border-bottom: 4px solid #e0e0e0;
+                margin-bottom: 50px;
+                position: relative;
+                &:after{
+                    content: "";
+                    height: 60px;
+                    display: block;
+                    border-left: 4px solid #e0e0e0;
+                    position: absolute;
+                    left: 28px;
+                    top: 42px;
+                }
+            }
+            p{
+                padding-left: 6px;
+                text-align: center;
+                color: #444;
+            }
+        }
+        
+    }
+}
+.default-addr{
+    width: 203px;
+    height: 172px;
+    float: left;
+    padding: 8px 14px 8px 8px;
+    margin-right: 13px;
+    margin-top: 30px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    cursor: pointer;
+   
+    p:first-child{
+        height: 40px;
+        line-height: 40px;
+        padding-top: 4px;
+        border-bottom: 1px solid #e8e8e8;
+        span{
+            float: right;
+        }
+    }
+    p:nth-child(2){
+        line-height: 20px;
+        padding-top: 8px;
+        max-height: 40px;
+        overflow: hidden;
+    }
+    p:nth-child(3){
+        line-height: 20px;
+        padding-top: 4px;
+        max-height: 40px;
+        color: #999;
+        word-break: break-all;
+        overflow: hidden;
+    }
+    p:last-child{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 10px;
+        color: #9a9a9a;
+        .default-tip{
+            display: inline-block;
+            color: #fff;
+            background-color: #ce0b22;
+            border-color: #ce0b22;
+            padding: 4px;
+            border: 1px solid #cdcdcd;
+            margin-left: 8px;
+            cursor: pointer;
+            font-weight: 300;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        span{
+            float: right;
+            margin-right: 10px;
+            line-height: 24px;
+            color: #6f6f6f;
+            vertical-align: middle;
+        }
+    }
+    &:before{
+        content: "";
+        width: 100%;
+        height: 11px;
+        display: block;
+        background: url(../img/addr-tps-on.png);
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    
+}
+.order1 .chosenstyle{
+    border-color: #d70024;
+    &:after{
+        content: "";
+        width: 24px;
+        height: 24px;
+        display: block;
+        background-image: url(../img/sprite.cart.png);
+        background-position: -312px -88px;
+        background-size: 460px 217px;
+        position: absolute;
+        right: -1px;
+        bottom: -1px;
+    }
+}
+.block-title{
+    height: 38px;
+    line-height: 40px;
+    font-size: 16px;
+    padding: 0 24px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 30px;
+}
+.warps{
+    border: 1px solid #e8e8e8;
+    border-bottom-color: #fff;
+    padding-bottom: 10px;
+    label{
+        line-height: 28px;
+        color: #444;
+        padding: 0 20px;
+        margin-right: 16px;
+        border: 1px solid #444;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        text-align: center;
+    }
+    p{
+        padding-left: 20px;
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        color: #444;
+    }
+}
+.goods-table{
+    width: 100%;
+    font-size: 14px;
+    color: #444;
+    thead{
+        border-bottom:1px solid black;
+        th{
+            font-weight: normal;
+        }
+    }
+    tbody{
+        td{
+            padding:10px 0;
+            text-align: center;
+            img{
+                float: left;
+            }
+            p{
+                float: left;
+            }
+        }  
+    }
+    tr{
+        width: 990px;
+        
+        th{
+            line-height: 40px;
+        }
+        th:nth-child(2){
+            text-align: left;
+        }
+    }
+    
+}
+
+.extra-wrap{
+    font-size: 14px;
+    padding: 20px;
+    border-bottom: 1px solid #e8e8e8;
+    dt{
+        line-height: 36px;
+    }
+}
+.balance-wrap{
+    font-size: 13px;
+    line-height: 2;
+    color: #444;
+    border: 1px solid #e8e8e8;
+    text-align: right;
+    ul{
+        padding: 24px 20px;
+        border-bottom: 1px solid #e8e8e8;
+        li{
+            font-size: 13px;
+            line-height: 2;
+            color: #444;
+            text-align: right;
+            b{
+                color: #d0021b;
+            }
+        }
+    }
+    p{
+        padding: 20px;
+        line-height: 2;
+        display: block;
+    }
+}
+.sum-wrap{
+    line-height: 1.5;
+    text-align: right;
+    padding: 30px 0 50px;
+    font-size: 24px;
+    span{
+        font-size: 30px;
+        color: #d90025;
+    }
+    button{
+        width: 150px;
+        line-height: 50px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        background: #d90025;
+        border: none;
+        outline: none;
+        padding: 0;
+        margin-left: 10px;
+        vertical-align: super;
+        cursor: pointer;
+    }
+}

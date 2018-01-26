@@ -1,0 +1,488 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  width: 100%;
+  height: 162px;
+  background: #3a3a3a;
+  margin-bottom: 10px;
+}
+.header .header_son {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.header_son_f {
+  width: 100%;
+  overflow: hidden;
+}
+
+.header_son_f1 {
+  background: #f4f4f4;
+  height: 32px;
+  overflow: visible;
+}
+.header_son_f1 div {
+  line-height: 32px;
+}
+.header_son_f1 a {
+  font-size: 12px;
+}
+
+.tool_left {
+  float: left;
+  overflow: hidden;
+  margin-left: 20px;
+  font-size: 10px;
+}
+.tool_left a {
+  font-size: 12px;
+}
+
+.tool_right {
+  float: right;
+  font-size: 12px;
+}
+.tool_right li {
+  float: left;
+  padding-right: 10px;
+  position: relative;
+}
+.tool_right li a {
+  color: #8e8e8e;
+}
+.tool_right li a .iconfont {
+  vertical-align: middle;
+}
+.tool_right .tag {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  width: 0;
+  margin-top: 11px;
+  margin-right: 12px;
+  height: 14px;
+  float: left;
+  border-left: 1px solid #dcdcdc;
+}
+.tool_right .hidden_kf {
+  position: absolute;
+  z-index: 1;
+  background: #f4f4f4;
+  width: 90px;
+  left: -12px;
+  display: none;
+}
+.tool_right .hidden_kf li {
+  clear: both;
+  border-top: 1px solid #dcdcdc;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+.tool_right .hidden_e {
+  position: absolute;
+  z-index: 1;
+  width: 146px;
+  background: #f4f4f4;
+  text-align: center;
+  top: 32px;
+  z-index: 5;
+}
+.tool_right .hidden_e h6 {
+  line-height: 12px;
+}
+.tool_right .e1 {
+  left: -38px;
+  display: none;
+}
+.tool_right .e2 {
+  left: -50px;
+  display: none;
+}
+
+.header_son_f2 {
+  height: 90px;
+  background: #fff;
+  overflow: visible;
+}
+.header_son_f2 .header_content {
+  height: 100%;
+  position: relative;
+}
+
+.header_content_list {
+  overflow: hidden;
+  margin-top: 42px;
+  float: left;
+}
+.header_content_list li {
+  float: left;
+  padding: 4px 22px 0;
+  text-align: center;
+  font-size: 14px;
+  font: inherit;
+}
+.header_content_list li a {
+  color: black;
+}
+.header_content_list li a span {
+  color: #8e8e8e;
+  font-size: 12px;
+}
+
+.header_content_logo {
+  position: absolute;
+  width: 182px;
+  height: 53px;
+  left: 42%;
+  margin-top: 28px;
+}
+
+.header_content_area {
+  float: right;
+  width: 378px;
+  height: 50px;
+  padding-right: 18px;
+  margin-top: 38px;
+  position: relative;
+}
+.header_content_area form {
+  width: 320px;
+  height: 28px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.header_content_area form .input_in {
+  display: inline-block;
+  width: 240px;
+  height: 100%;
+  border: none;
+  background: #fff;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border: 1px solid #3a3a3a;
+  outline: none;
+  font-size: 12px;
+  color: #999999;
+}
+.header_content_area form .input_sub {
+  display: inline-block;
+  width: 78px;
+  height: 100%;
+  line-height: 28px;
+  vertical-align: bottom;
+  border: none;
+  cursor: pointer;
+  background: #3a3a3a;
+  text-align: center;
+}
+.header_content_area form .input_sub .iconfont {
+  color: white;
+  font-size: 24px;
+}
+.header_content_area .gwc {
+  display: block;
+  float: right;
+}
+.header_content_area .gwc .iconfont {
+  color: #3a3a3a;
+  font-size: 28px;
+}
+.header_content_area ul li {
+  float: left;
+  margin: 2px 16px 0 0;
+  font-size: 12px;
+}
+.header_content_area ul li a {
+  color: #8e8e8e;
+}
+.header_content_area ul li a:hover {
+  color: #d71d32;
+}
+
+#hot_search {
+  position: absolute;
+  background: white;
+  width: 318px;
+  border: 1px solid #3a3a3a;
+  border-top: none;
+  box-sizing: border-box;
+  padding-top: 14px;
+  z-index: 10;
+  overflow: hidden;
+  display: none;
+}
+#hot_search li {
+  line-height: 30px;
+  margin: 0;
+  float: none;
+  padding: 0 8px;
+}
+#hot_search li:hover {
+  background: #f4f4f4;
+}
+#hot_search li span {
+  float: right;
+}
+
+.gwc_in {
+  width: 380px;
+  right: 0px;
+  position: absolute;
+  background: #f5f7f6;
+  z-index: 2;
+  text-align: center;
+  padding: 140px 0;
+  display: none;
+  color: #3a3a3a;
+}
+.gwc_in i {
+  font-size: 100px;
+  display: inline;
+}
+.gwc_in h4 {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  line-height: 50px;
+}
+
+.header_son_f3 {
+  height: 40px;
+  background: #3a3a3a;
+  overflow: visible;
+}
+
+.nav_list {
+  height: 40px;
+}
+.nav_list li {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 46px;
+  box-sizing: border-box;
+  margin-right: 36px;
+  position: relative;
+}
+.nav_list li a {
+  color: white;
+  font-size: 14px;
+}
+.nav_list li a:hover {
+  border-bottom: 2px white solid;
+}
+.nav_list li .hiddenList {
+  position: absolute;
+  width: 1150px;
+  height: 400px;
+  position: absolute;
+  top: 38px;
+  padding: 30px 0 0;
+  background-color: #f8f8f8;
+  z-index: 1;
+  display: none;
+}
+.nav_list li .hiddenList dl {
+  width: 228px;
+  float: left;
+  width: 250px;
+  height: 370px;
+  box-sizing: border-box;
+  border-left: 1px solid #ccc;
+  padding: 0 50px;
+  overflow: hidden;
+}
+.nav_list li .hiddenList dl dt {
+  width: 100%;
+  border-bottom: 1px black solid;
+}
+.nav_list li .hiddenList dl dt a {
+  color: black;
+  border: none;
+}
+.nav_list li .hiddenList dl dd a {
+  color: #a1a1a1;
+}
+.nav_list li .hiddenList dl dd a:hover {
+  border-bottom: 1px #8e8e8e solid;
+}
+.nav_list li .hiddenList dl dd .hot {
+  color: #e01;
+}
+.nav_list li .hiddenList .hidden_right {
+  float: right;
+  margin-right: 20px;
+}
+.nav_list li .hiddenList .hidden_right a {
+  display: block;
+  color: black;
+  border: none;
+  text-align: center;
+}
+.nav_list li .hiddenList .hidden_right a:nth-child(2) {
+  margin-top: 50px;
+}
+
+.ahover {
+  border-bottom: 2px white solid;
+}
+
+.hiddenList1 {
+  left: -276px;
+}
+
+.hiddenList2 {
+  left: -386px;
+}
+
+.hiddenList3 {
+  left: -496px;
+}
+
+.hiddenList4 {
+  left: -606px;
+}
+
+.side_ad {
+  width: 117px;
+  height: 216px;
+  position: fixed;
+  top: 200px;
+  right: 24px;
+  z-index: 3;
+}
+.side_ad a {
+  overflow: hidden;
+  float: right;
+}
+.side_ad a i {
+  font-size: 20px;
+  color: #3a3a3a;
+}
+.side_ad h5 {
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  background: black;
+}
+.footer .promise {
+  width: 1150px;
+  margin: 0 auto;
+  height: 34px;
+  padding: 20px 0 10px;
+  border-bottom: 1px solid #262626;
+}
+.footer .promise div {
+  float: left;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 34px;
+  margin-right: 60px;
+}
+.footer .promise div span {
+  color: red;
+}
+.footer .promise form {
+  float: right;
+  border: 1px solid #262626;
+}
+.footer .promise form input {
+  width: 180px;
+  height: 32px;
+  padding: 0 10px;
+  line-height: 32px;
+  border: none;
+  margin: 0;
+  background: #000;
+  outline: none;
+  vertical-align: middle;
+  color: white;
+}
+.footer .promise form submit {
+  height: 100%;
+  width: 40px;
+  display: inline-block;
+  border-left: 1px solid #666;
+  text-align: center;
+}
+.footer .promise form submit i {
+  font-size: 30px;
+  color: white;
+  vertical-align: middle;
+}
+.footer .help {
+  height: 140px;
+  width: 1150px;
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.footer .help dl {
+  float: left;
+  font-size: 12px;
+}
+.footer .help dl dt {
+  color: white;
+  line-height: 26px;
+}
+.footer .help dl dd {
+  line-height: 26px;
+}
+.footer .help dl dd a {
+  color: #666;
+}
+.footer .link {
+  width: 1150px;
+  margin: 0 auto;
+}
+.footer .link .link_tl {
+  float: left;
+  height: 45px;
+  line-height: 45px;
+}
+.footer .link .link_tl a {
+  height: 34px;
+  display: inline-block;
+  vertical-align: middle;
+  background: white;
+}
+.footer .link .link_tl a img {
+  display: inline-block;
+}
+.footer .link .link_tr a {
+  color: #666;
+  font-size: 12px;
+  padding: 0 13px;
+}
+.footer .link .link_tr a img {
+  vertical-align: middle;
+}
+.footer .link .link_tr span {
+  color: #666;
+  font-size: 12px;
+}
+.footer .link .link_b {
+  padding: 30px 0 30px;
+  text-align: center;
+  color: #666;
+  font-size: 12px;
+}
+.footer .link .link_b a {
+  color: #666;
+}

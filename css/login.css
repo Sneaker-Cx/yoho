@@ -1,0 +1,184 @@
+.login-content-rr {
+  margin-left: 85px;
+  width: 270px;
+  float: left;
+  margin-top: 107px;
+}
+.login-content-rr .login-header-m {
+  font-size: 12px;
+  color: #9b9b9b;
+  overflow: hidden;
+  height: 46px;
+}
+.login-content-rr .login-header-m span {
+  padding: 2px 6px;
+  border: 1px solid #9b9b9b;
+  float: right;
+  line-height: 18px;
+}
+.login-content-rr .login-header-m a {
+  overflow: hidden;
+  float: right;
+}
+.login-content-rr .login-header-m a img {
+  display: inline-block;
+}
+.login-content-rr .login-header-translate {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+.login-content-rr .login-er {
+  position: relative;
+  height: 140px;
+}
+.login-content-rr .login-er img {
+  height: 140px;
+  display: inline-block;
+  position: absolute;
+}
+.login-content-rr .login-er img:nth-child(1) {
+  left: 67px;
+  z-index: 1;
+}
+.login-content-rr .login-er img:nth-child(2) {
+  right: -16px;
+  display: none;
+}
+.login-content-rr .login-tishi {
+  font-size: 14px;
+  color: #9b9b9b;
+  margin: 20px 0;
+}
+.login-content-rr .login-tishi i {
+  float: left;
+  font-size: 38px;
+  margin-left: 30px;
+  margin-right: 8px;
+  color: black;
+}
+.login-content-rr .login-last {
+  text-align: center;
+}
+.login-content-rr .login-last a {
+  text-align: left;
+  font-size: 12px;
+  color: red;
+  line-height: 4;
+}
+.login-content-rr .login-byNumber li {
+  margin-bottom: 24px;
+}
+.login-content-rr .login-byNumber .login-byNumber-h {
+  position: relative;
+}
+.login-content-rr .login-byNumber .login-byNumber-h h2 {
+  font-weight: normal;
+  display: inline-block;
+}
+.login-content-rr .login-byNumber .login-byNumber-h span {
+  float: right;
+  line-height: 31px;
+  cursor: pointer;
+}
+.login-content-rr .login-byNumber .login-byNumber-h ul {
+  padding: 0 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 100px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  display: none;
+  background: white;
+  z-index: 3;
+}
+.login-content-rr .login-byNumber .login-byNumber-h ul li {
+  margin: 12px 0;
+}
+.login-content-rr .login-byNumber .inputs {
+  width: 268px;
+  height: 43px;
+  color: #9a9a9a;
+  color: rgba(0, 0, 0, 0.5);
+  text-indent: 10px;
+  font-size: 16px;
+  line-height: 1.2;
+  outline: none;
+}
+.login-content-rr .login-byNumber .login-check {
+  background-color: #cdcdcd;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  position: relative;
+}
+.login-content-rr .login-byNumber .login-check a {
+  color: black;
+  width: 50%;
+  text-align: center;
+  border-radius: 20px;
+  padding: 6px 0;
+  font-size: 12px;
+}
+.login-content-rr .login-byNumber .login-now .loginRightnow {
+  display: block;
+  width: 100%;
+  height: 46px;
+  background-color: #ff1901;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 20px;
+  line-height: 46px;
+  cursor: pointer;
+  border: none;
+}
+.login-content-rr .login-byNumber .login-last {
+  font-size: 14px;
+}
+.login-content-rr .login-byNumber .login-last input {
+  vertical-align: middle;
+}
+.login-content-rr .login-byNumber .login-last span {
+  color: #b9b9b9;
+}
+.login-content-rr .login-byNumber .login-last a {
+  font-size: 14px;
+}
+.login-content-rr .login-byNumber .login-last .login-last-a {
+  margin-left: 26px;
+  color: #b9b9b9;
+}
+
+.vcode {
+  font-size: 14px;
+}
+.vcode span {
+  color: #b9b9b9;
+}
+.vcode div {
+  margin-top: 8px;
+}
+.vcode a {
+  color: red;
+  margin-left: 18px;
+}
+.vcode img {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  border: 1px solid #dbdbdb;
+  cursor: pointer;
+}
+
+.login-change {
+  display: none;
+}
+
+.login-content-rr .login-byNumber .login-check .chosenStyle {
+  color: white;
+  background: black;
+}

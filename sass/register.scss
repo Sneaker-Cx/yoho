@@ -1,0 +1,193 @@
+.login-header-f{
+    width:100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #222; 
+}
+.login-header{
+    height:66px;width:990px;
+    margin:0 auto;
+    .login-header-logo{
+        display: inline-block;
+        overflow: hidden;
+        font-size: 0;
+        vertical-align: middle;
+        margin-top: 14px;
+        img{
+            display: inline-block;  
+        }
+    } 
+    ul{
+        float: right;line-height: 66px;
+        li{
+            float: left;font-size: 12px;
+            vertical-align: middle;
+            padding: 0 10px;
+            a{
+                color:black;
+                i{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+.login-content{
+    width:1150px;height:730px;
+    margin:0 auto;
+}
+.login-content-l{
+    float:left;
+    padding:50px 0;
+    width: 575px;
+    height: 318px;
+    border-right: 1px solid #dfdfdf;
+    text-align: center;
+    margin: 107px 0;
+    line-height:  318px;
+    img{
+        display:inline-block;
+        vertical-align: middle;
+    }
+}
+.login-content-r{
+    float: left;
+    margin-top: 107px;
+    padding-left: 85px;
+    select{
+        width: 132px;
+        height: 30px;
+        color: rgb(154, 154, 154);
+        font-size: 16px;
+        font-family: 黑体;
+        padding: 4px 0px;
+        border-color: rgb(193, 193, 193);
+    }
+    li{
+        margin-bottom: 25px;
+        position: relative;
+        .pswlevel{
+            padding: 1px 10px;
+            height: 15px;
+            background-color: #e8e8e8;
+            text-align: center;
+            font-size: 12px;
+        }
+        .jia86{
+            color:rgb(174, 159, 159);
+            display: block;
+            float: left;
+            width: 58px;
+            height: 43px;
+            border: 1px solid #dbdbdb;
+            border-right: 0;
+            text-align: center;
+            white-space: nowrap;
+            font-size: 16px;
+            line-height: 43px;
+        }
+        .inputt{
+            padding: 0;
+            width: 268px;
+            height: 43px;
+            border: 1px solid #dbdbdb;
+            color: #9a9a9a;
+            text-indent: 10px;
+            font-size: 16px;
+            line-height: 43px;
+            outline: none;
+        }
+    }
+    .shortmsg{
+        input{
+            vertical-align: middle;
+            width:164px;
+        }
+        a{
+            padding: 0;
+            height: 45px;
+            border: none;
+            color: #fff;
+            text-align: center;
+            font-family: 黑体;
+            line-height: 45px;
+            width: 100px;
+            background: #ff1901;
+            font-size: 12px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+    .gorightnow{
+        .registerNow{
+            padding: 0;
+            height: 45px;
+            border: none;
+            color: #fff;
+            text-align: center;
+            font-family: 黑体;
+            line-height: 45px;
+            width: 270px;
+            background: #555;
+            font-weight: 700;
+            font-size: 20px;
+            float: left;
+        }
+        span{
+            width: 45px;
+            height: 45px;line-height: 45px;
+            border: 1px solid #b0b0b0;
+            box-sizing: border-box;
+            text-align: center;
+            display: inline-block;
+            margin-left:10px; 
+            i{
+                font-size: 28px;color:#555;
+            }
+        }
+    } 
+    .xieyi{
+        font-size: 12px;
+        span{
+            color:#b9b9b9;
+        }
+        a{
+            color:red;
+            text-decoration: underline
+        }
+    }
+    .vcode{
+        font-size: 14px;
+        span{
+            color:#b9b9b9;
+        }
+        div{
+            margin-top:8px;
+        }
+        a{
+            color:red;
+            margin-left: 30px;
+        }
+        img{
+            width:60px;height:60px;
+            display: inline-block;
+            border:1px solid #dbdbdb;
+            cursor: pointer;
+        }
+    }
+    .pwds{
+        
+        .pwdsdiv{
+            position: absolute;font-size: 12px;color:red;
+            display: none;
+        }
+       
+    }
+}
+.login-content-r .gorightnow .goOk{
+    background: #ff1901;
+}
+#usernameMsg{
+    color:red;
+}

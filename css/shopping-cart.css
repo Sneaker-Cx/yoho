@@ -1,0 +1,406 @@
+.shopping-content {
+  width: 990px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.shopping-content .tipsbox {
+  position: relative;
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+  padding: 4px 0;
+  color: #818181;
+  font-size: 14px;
+  background-color: #f0f0f0;
+}
+.shopping-content .tipsbox span {
+  padding-left: 20px;
+}
+.shopping-content .tipsbox a {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin-right: 30px;
+  margin-top: 5px;
+  background-image: url(../img/sprite.cart.png);
+  background-position: -204px -159px;
+  background-size: 460px 217px;
+  float: right;
+  cursor: pointer;
+}
+
+.pay-wapper .cart-title {
+  padding: 0 30px;
+  background: #444;
+  height: 50px;
+  overflow: hidden;
+  zoom: 1;
+}
+.pay-wapper .cart-title p {
+  float: left;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+}
+.pay-wapper .cart-title p input {
+  vertical-align: middle;
+}
+.pay-wapper .ordinary .pre-sell {
+  background: #fff;
+  color: #818181;
+  font-size: 14px;
+  font-weight: 300;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 32px;
+  padding-top: 20px;
+  position: relative;
+  margin-bottom: 1px;
+}
+.pay-wapper .ordinary .pre-sell input {
+  vertical-align: middle;
+}
+.pay-wapper .ordinary .pre-sell span {
+  margin-right: 16px;
+}
+.pay-wapper .ordinary .pre-sell a {
+  float: right;
+  margin-right: 30px;
+  color: #017cf8 !important;
+}
+.pay-wapper .ordinary .pre-sell a i {
+  font-size: 12px;
+}
+.pay-wapper .ordinary .cart-table {
+  border: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+.pay-wapper .ordinary .cart-table .table-items {
+  padding: 0 30px 0 30px;
+  overflow: hidden;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.pay-wapper .ordinary .cart-table .table-items div {
+  float: left;
+  padding: 30px 0;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+.pay-wapper .ordinary .cart-table .table-items .table-items-t input {
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  margin-right: 14px;
+}
+.pay-wapper .ordinary .cart-table .table-items .table-items-t a {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+}
+.pay-wapper .ordinary .cart-table .table-items .table-items-t a img {
+  display: inline-block;
+}
+.pay-wapper .ordinary .cart-table .table-items .table-items-t p {
+  display: inline-block;
+  text-align: left;
+  padding-top: 0;
+  margin-left: 32px;
+  width: 240px;
+  overflow: hidden;
+  padding: 6px 0;
+  height: 90px;
+  vertical-align: middle;
+}
+.pay-wapper .ordinary .cart-table .table-items .table-items-t p span {
+  cursor: pointer;
+  border: 1px dotted #666;
+  font-size: 12px;
+  padding: 2px 4px 2px 2px;
+  margin-top: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 24px;
+}
+.pay-wapper .ordinary .cart-table .table-items .table-items-t p span i {
+  display: inline-block;
+  float: right;
+  font-size: 24px;
+  vertical-align: middle;
+  margin-left: 60px;
+}
+.pay-wapper .ordinary .cart-table .table-items .table-items-t p a {
+  display: block;
+  width: 280px;
+  padding-left: 3px;
+  color: #444;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-decoration: none;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pay-wapper .ordinary .cart-table .table-items .table-items-price {
+  margin-top: 33px;
+  width: 148px;
+}
+.pay-wapper .ordinary .cart-table .table-items .table-items-count {
+  width: 128px;
+  height: 30px;
+  margin-top: 28px;
+  text-align: center;
+}
+.pay-wapper .ordinary .cart-table .table-items .table-items-count span {
+  display: inline-block;
+  width: 30px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  box-sizing: border-box;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #e0e0e0;
+}
+.pay-wapper .ordinary .cart-table .table-items .table-items-count .table-items-counti {
+  font-weight: bold;
+  color: #666;
+}
+.pay-wapper .ordinary .cart-table .table-items .table-items-last {
+  width: 100px;
+  margin-top: 20px;
+}
+.pay-wapper .ordinary .cart-table .table-items .table-items-last a {
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  color: black;
+  margin-bottom: 14px;
+}
+.pay-wapper .ordinary .cart-table .table-items .table-items-last a:hover {
+  color: #d0021b;
+}
+.pay-wapper .ordinary .cart-total {
+  width: 990px;
+  position: relative;
+  margin: 0 auto 30px;
+  height: 50px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+}
+.pay-wapper .ordinary .cart-total ul {
+  display: inline-block;
+  height: 100%;
+  line-height: 50px;
+}
+.pay-wapper .ordinary .cart-total li {
+  float: left;
+  height: 100%;
+  line-height: 50px;
+}
+.pay-wapper .ordinary .cart-total li a {
+  color: #017cf8;
+  margin-left: 20px;
+  font-size: 14px;
+}
+.pay-wapper .ordinary .cart-total li p {
+  line-height: 20px;
+}
+.pay-wapper .ordinary .cart-total li p:first-child {
+  margin-top: 6px;
+}
+.pay-wapper .ordinary .cart-total li p:last-child {
+  color: #b0b0b0;
+  font-size: 12px;
+}
+.pay-wapper .ordinary .cart-total ul:nth-child(2) {
+  margin-left: 80px;
+  font-size: 14px;
+}
+.pay-wapper .ordinary .cart-total ul:nth-child(2) span {
+  color: #d0021b;
+}
+.pay-wapper .ordinary .cart-total ul:nth-child(2) li:first-child {
+  margin-right: 30px;
+}
+.pay-wapper .ordinary .cart-total ul:nth-child(2) li:last-child {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d0021b;
+  margin-left: 20px;
+  max-width: 100px;
+}
+.pay-wapper .ordinary .cart-total .gotopay {
+  width: 150px;
+  height: 50px;
+  padding: 0;
+  text-align: center;
+  border: 0;
+  line-height: 50px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  float: right;
+  background-color: #d0021b;
+}
+
+.moreandmore-title {
+  height: 40px;
+  line-height: 39px;
+  border-bottom: 1px solid #dcdcdc;
+  width: 990px;
+  margin: 0 auto 20px;
+}
+.moreandmore-title span {
+  font-weight: 300;
+  color: #444;
+  display: inline-block;
+  cursor: pointer;
+  width: 80px;
+  text-align: center;
+  margin: 0 13px;
+  font-size: 18px;
+}
+
+.moreandmore-content {
+  width: 990px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  height: 350px;
+}
+.moreandmore-content ul {
+  display: flex;
+  justify-content: space-between;
+}
+.moreandmore-content ul img {
+  width: 188px;
+}
+.moreandmore-content li {
+  float: left;
+  text-align: center;
+}
+.moreandmore-content li a {
+  display: block;
+}
+.moreandmore-content li span {
+  font-size: 12px;
+}
+.moreandmore-content .more-name {
+  width: 188px;
+  display: block;
+  font-size: 12px;
+  font-weight: 300;
+  color: #222;
+  text-align: center;
+  height: 12px;
+  line-height: 12px;
+  margin: 15px 0 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.moreandmore-content .more-cart {
+  display: block;
+  margin: 0 auto;
+  color: #3a3a3a;
+  font-size: 14px;
+  font-weight: 300;
+  width: 110px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #b0b0b0;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  background-color: #fff;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+
+.selects {
+  border-bottom: 3px solid #3a3a3a;
+}
+
+.shopping-content .shopping-content-title ul .focus-step {
+  color: #444;
+}
+.shopping-content .shopping-content-title ul .focus-step:after {
+  background-position: 0 -205px;
+}
+
+.pay-wapper .ordinary .cart-total .disable {
+  background-color: #b0b0b0;
+  cursor: not-allowed;
+}
+
+.shopping-content-title {
+  position: relative;
+  margin: 20px auto 50px;
+  background: white;
+  height: 42px;
+  width: 990px;
+}
+.shopping-content-title span {
+  display: inline-block;
+  width: 150px;
+  height: 42px;
+  background: url(../img/sprite.cart.png);
+  background-position: -234px -38px;
+  background-size: 460px 217px;
+}
+.shopping-content-title ul {
+  width: 440px;
+  font-size: 15px;
+  font-weight: 300;
+  border-top: 2px solid #b0b0b0;
+  position: absolute;
+  right: 2px;
+  top: 0;
+}
+.shopping-content-title ul li {
+  float: left;
+  position: relative;
+  width: 33.33%;
+  line-height: 40px;
+  text-align: left;
+  color: #999;
+}
+.shopping-content-title ul li:after {
+  content: "";
+  position: absolute;
+  background-image: url(../img/sprite.cart.png);
+  background-position: -204px -180px;
+  background-size: 460px 217px;
+  width: 12px;
+  height: 12px;
+  left: 50%;
+  margin-left: -6px;
+  top: -7px;
+}
+.shopping-content-title ul li:first-child:after {
+  left: 0;
+}
+.shopping-content-title ul li:nth-child(2) {
+  text-align: center;
+}
+.shopping-content-title ul li:last-child {
+  text-align: right;
+}
+.shopping-content-title ul li:last-child:after {
+  left: auto;
+  right: 0;
+}

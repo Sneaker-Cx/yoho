@@ -1,0 +1,183 @@
+.login-content-rr{
+    margin-left:85px;
+    width:270px;
+    float: left;
+    margin-top: 107px;
+    .login-header-m{
+        font-size: 12px;
+        color:#9b9b9b;
+        overflow: hidden;
+        height: 46px;
+        span{
+            padding:2px 6px;
+            border: 1px solid #9b9b9b;
+            float: right;
+            line-height: 18px;
+        }
+        a{
+            overflow: hidden;
+            float:right;
+            img{
+                display: inline-block;
+            }
+        }
+    }
+    .login-header-translate{
+        margin-bottom:30px;font-weight:bold;
+        font-size: 14px;
+        text-align: center;
+    }
+    .login-er{
+        position: relative;
+        height: 140px;
+        img{
+            height: 140px;
+            display: inline-block;
+            position: absolute;
+        }img:nth-child(1){
+            left:67px;
+            z-index: 1;
+        }
+        img:nth-child(2){
+            right:-16px;
+            display: none;
+        }
+    }
+    .login-tishi{
+        font-size: 14px;
+        color:#9b9b9b;
+        margin: 20px 0;
+        i{
+            float:left;
+            font-size: 38px;
+            margin-left: 30px;
+            margin-right: 8px;color:black;
+        }
+    }
+    .login-last{
+        text-align: center; 
+        a{
+            // display: block;
+            
+            text-align: left; 
+            font-size: 12px;color:red;
+            line-height: 4;
+        }
+        
+    }
+    // 111111111111111111111111111111
+    .login-byNumber{
+        li{
+            margin-bottom:24px;
+        }
+        .login-byNumber-h{
+            position: relative;
+            h2{
+                font-weight: normal;
+                display: inline-block;
+            }
+            span{
+                float: right;
+                line-height: 31px;
+                cursor: pointer;  
+            }
+            ul{
+                padding: 0 10px;
+                border: 1px solid #000;
+                border-radius: 5px;
+                width: 100px;
+                position: absolute;
+                right: 0;
+                cursor: pointer;  
+                display: none;
+                background: white;
+                z-index: 3;
+                li{
+                    margin:12px 0;
+                }
+            }
+        }
+        .inputs{
+            width: 268px;
+            height: 43px;
+            // border: 1px solid #dbdbdb;
+            color: #9a9a9a;
+            color: rgba(0,0,0,.5);
+            text-indent: 10px;
+            font-size: 16px;
+            line-height: 1.2;
+            outline: none;
+        }
+        .login-check{
+            background-color: rgb(205, 205, 205);
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            border-radius: 20px;
+            position: relative;
+            a{
+                color:black;
+                width:50%;
+                text-align: center;
+                border-radius:20px;
+                padding: 6px 0;
+                font-size: 12px;
+            }
+        }
+        .login-now .loginRightnow{
+            display: block;
+            width: 100%;
+            height: 46px;
+            background-color: #ff1901;
+            color: #fff;
+            text-align: center;
+            letter-spacing: 10px;
+            font-size: 20px;
+            line-height: 46px;
+            cursor: pointer;
+            border:none;
+        }
+        .login-last{
+            font-size: 14px;
+            input{
+                vertical-align: middle;
+            }
+            span{
+                color:#b9b9b9;
+            }
+            a{
+                font-size: 14px;
+            }
+            .login-last-a{
+                margin-left: 26px;
+                color:#b9b9b9;
+            }
+        }
+    }
+}
+.vcode{
+    font-size: 14px;
+    span{
+        color:#b9b9b9;
+    }
+    div{
+        margin-top:8px;
+    }
+    a{
+        color:red;
+        margin-left: 18px;
+    }
+    img{
+        width:60px;height:60px;
+        display: inline-block;
+        border:1px solid #dbdbdb;
+        cursor: pointer;
+    }
+}
+.login-change{
+    display: none;
+}
+.login-content-rr .login-byNumber .login-check .chosenStyle{
+    color:white;
+    background: black; 
+}
